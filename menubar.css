@@ -1,0 +1,16 @@
+ul{
+    list-style-type: none;
+    padding:0%;
+    margin:0%;
+}
+li a{
+    padding: 8px;
+    background-color: rgb(39, 58, 39);
+
+}
+h1{
+    background-color: rgb(94, 119, 94);
+    font-style: oblique;
+    font-family: fantasy;
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(190, 170, 138);
+}
+h1{
+    background-color:pink;
+     text-align: center;
+     font-family: cursive;
+     text-transform: uppercase;
+}
+p{
+    font-style: oblique;
+    font-size: larger;
+}
+
+a{
+    font-size: larger;
+}
+
+    
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>How to change button on click</h1>
+        <button id="button">Click here</button>
+     
+        <p1 id="demo"></p1>
+
+        <script>
+            function displayDate(){
+              document.getElementById("demo").innerHTML=Date();
+            }
+            document.getElementById("button").onclick=displayDate;
+        </script>
+
+        <h2>how to use mouse over function</h2>
+        <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color: grey; height: 70px;width: 70px;padding: 10px; text-decoration: aliceblue;">
+
+        </div>
+        <script>
+            function mOver(obj){
+                obj.innerHTML="mouse out";
+
+
+            }
+            function mOut(obj){
+                obj.innerHTML="mouse over";
+                
+
+            }
+        </script>
+    </body>
+</html>
